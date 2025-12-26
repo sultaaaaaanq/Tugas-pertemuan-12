@@ -1,0 +1,36 @@
+/* Global */
+*{box-sizing:border-box;font-family: 'Segoe UI', Roboto, Arial, sans-serif}
+body{margin:0;background:#f4f6f8;color:#333}
+
+/* Navbar */
+.navbar{background:#5b6ef5;color:#fff;padding:16px 24px;border-radius:8px;margin:24px auto;max-width:1000px;display:flex;justify-content:space-between;align-items:center}
+.navbar .links a{color:#fff;margin-right:18px;text-decoration:none;padding:8px 14px;border-radius:6px;background:transparent}
+.navbar .links a:hover{background:rgba(255,255,255,0.08)}
+.btn-logout{background:#ff6b6b;color:#fff;padding:8px 12px;border-radius:6px;text-decoration:none}
+
+/* Centered card */
+.centered-page{display:flex;align-items:center;justify-content:center;min-height:80vh}
+.container{background:#fff;padding:34px;border-radius:10px;box-shadow:0 10px 30px rgba(20,20,20,0.08);width:360px}
+.container h2{text-align:center;margin:0 0 18px;font-weight:700;color:#222}
+.container .footer-link{margin-top:16px;text-align:center;color:#777}
+.container .footer-link a{color:#4b61ff;text-decoration:none}
+
+/* Forms */
+.container input[type="text"],.container input[type="password"]{width:100%;padding:12px 14px;border:1px solid #e6e6e6;border-radius:6px;margin-bottom:12px;background:#f8f9fb}
+.container button{width:100%;padding:12px;border:none;border-radius:6px;background:#5b6ef5;color:#fff;font-weight:600;cursor:pointer}
+.alert{padding:12px;border-radius:6px;margin-bottom:12px}
+.alert-danger{background:#f8d7da;color:#842029;border:1px solid #f5c2c7}
+
+/* Dashboard container */
+.dashboard-container{background:#fff;max-width:900px;margin:32px auto;padding:28px;border-radius:10px;box-shadow:0 12px 30px rgba(20,20,20,0.06)}
+.dashboard-container h2{margin-top:0}
+
+/* Table */
+table{width:100%;border-collapse:collapse;margin-top:18px}
+thead th{background:#5b6ef5;color:#fff;padding:12px;text-align:left;border-radius:6px}
+tbody td{padding:12px;border-top:1px solid #eee;color:#444}
+.action-links a{color:#5b6ef5;text-decoration:none}
+.action-links a.delete{color:#ff6b6b}
+
+/* Responsive */
+@media (max-width:600px){.navbar,.dashboard-container{margin:12px;padding:16px}.container{width:92%}}
